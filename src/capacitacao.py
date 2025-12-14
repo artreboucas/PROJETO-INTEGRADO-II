@@ -6,3 +6,4 @@ class Capacitacao:
         self.data = data
         self.rede = rede
         self.arquivos = []
+        self.participacoes = []
