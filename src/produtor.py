@@ -5,5 +5,6 @@ class Produtor:
         self.tipo = tipo
         self.local = local
         self.email = email
-        self.usuario = usuario  
+        self.usuario = usuario
         self.consultorias = []
+        self.participacoes = []
