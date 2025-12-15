@@ -8,3 +8,10 @@ class Produtor:
         self.usuario = usuario
         self.consultorias = []
         self.participacoes = []
+    
+    def agendar_consultoria(self, consultoria):
+        self.consultorias.append(consultoria)
+    
+    def participar_capacitacao(self, particpacao):
+        self.participacoes.append(participacao)
+        
