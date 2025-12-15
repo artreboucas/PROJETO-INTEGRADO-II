@@ -51,13 +51,13 @@ O desenvolvimento do projeto seguiu os principais fundamentos da Programação O
 
 **Encapsulamento,** ao agrupar atributos e comportamentos relacionados dentro de cada classe;
 
-**Herança,** foi utilizada para representar explicações de usuários, como produtor e consultor, permitindo o reaproveitamento de atributos e métodos e métodos comuns definidos em uma classe base ;
+**Herança,** considerada na modelagem do sistema como possibilidade de especialização de usuários e papéis no sistema, estando prevista para ser aplicada nas próximas etapas de evolução do MVP;
 
 **Baixo acoplamento,** permitindo que as classes se relacionem sem dependências excessivas;
 
-**Polimorfismo,** métodos com comportamentos semelhantes foram implementados de forma que possam ser reutilizados de maneira flexível, permitindo futuras extensões do sistema sem grandes alterações no código existente.
+**Polimorfismo,** também previsto para vesões futuras do sistema,permitindo que comportamentos semelhantes foram implementados de forma que possam ser reutilizados de maneira flexível, permitindo futuras extensões do sistema sem grandes alterações no código existente.
 
-Além disso, foram adotados boas práticas como, separação de responsabilidades entre classes, métodos curtos e objetivos, nomenclatura clara e coerente, essas práticas contribuem diretamente para a qualidade do mvp e facilitam a evolução do projeto nas próximas etapas.
+Além disso, foram adotadas boas práticas como, separação de responsabilidades entre classes, métodos curtos e objetivos, nomenclatura clara e coerente. Essas práticas contribuem diretamente para a qualidade do MVP e facilitam a evolução do projeto nas próximas etapas.
 
 ---
 
