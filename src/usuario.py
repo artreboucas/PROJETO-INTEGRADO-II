@@ -5,5 +5,5 @@ class Usuario:
         self.email = email
         self._senha = senha
         self.tipo_usuario = tipo_usuario
-    def login(self, email, senha)
+    def login(self, email, senha):
         return self.email == email and self._senha == senha
