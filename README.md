@@ -47,10 +47,17 @@ Os relacionamentos entre as entidades foram implementados por meio de **associa�
 
 O desenvolvimento do projeto seguiu os principais fundamentos da Programação Orientada a Objetos:
 
-- **Abstração**, ao representar entidades do mundo real por meio de classes;
-- **Encapsulamento**, organizando atributos e comportamentos;
-- **Responsabilidade Única**, garantindo que cada classe possua uma função específica;
-- **Baixo acoplamento**, permitindo maior independência entre as classes;
+**Abstração,** ao representar conceitos do mundo real, como produtores, capacitações e redes de apoio, por meio de classes;
+
+**Encapsulamento,** ao agrupar atributos e comportamentos relacionados dentro de cada classe;
+
+**Herança,** foi utilizada para representar explicações de usuários, como produtor e consultor, permitindo o reaproveitamento de atributos e métodos e métodos comuns definidos em uma classe base ;
+
+**Baixo acoplamento,** permitindo que as classes se relacionem sem dependências excessivas;
+
+**Polimorfismo,** métodos com comportamentos semelhantes foram implementados de forma que possam ser reutilizados de maneira flexível, permitindo futuras extensões do sistema sem grandes alterações no código existente.
+
+Além disso, foram adotados boas práticas como, separação de responsabilidades entre classes, métodos curtos e objetivos, nomenclatura clara e coerente, essas práticas contribuem diretamente para a qualidade do mvp e facilitam a evolução do projeto nas próximas etapas.
 
 ---
 
@@ -77,5 +84,5 @@ Projeto desenvolvido pelos discentes do curso de Análise e Desenvolvimento de S
 - Rubens Lopes dos Santos 
 - Carlos Rodrigo Ferreira da Silva 
 - Viviana Barros Gomes de Sousa 
-- Samantha Daniel da Silva 
+- Samuelson da Silva Lima 
 - Vitoria Cavalcante Souza
