@@ -3,5 +3,7 @@ class Usuario:
         self.id_usuario = id_usuario
         self.nome = nome
         self.email = email
-        self.senha = senha
+        self._senha = senha
         self.tipo_usuario = tipo_usuario
+    def login(self, email, senha)
+        return self.email == email and self._senha == senha
