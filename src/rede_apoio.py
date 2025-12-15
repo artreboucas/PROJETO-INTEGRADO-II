@@ -7,3 +7,7 @@ class RedeDeApoio:
         self.localizacao = localizacao
         self.usuario = usuario
         self.capacitacoes = []
+
+    def adicionar_capacitacao(self, capacitacao):
+        self.capacitacoes.append(capacitacao)
+        
