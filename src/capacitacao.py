@@ -7,3 +7,10 @@ class Capacitacao:
         self.rede = rede
         self.arquivos = []
         self.participacoes = []
+
+    def adicionar_arquivo(self, arquivo):
+        self.arquivos.append(arquivo)
+
+    def adicionar_participacao(self, participacao):
+        self.participacoes.append(participacao)
+        
