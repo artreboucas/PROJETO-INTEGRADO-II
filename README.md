@@ -55,7 +55,7 @@ O desenvolvimento do projeto seguiu os principais fundamentos da Programação O
 
 **Baixo acoplamento,** permitindo que as classes se relacionem sem dependências excessivas;
 
-**Polimorfismo,** também previsto para vesões futuras do sistema,permitindo que comportamentos semelhantes foram implementados de forma que possam ser reutilizados de maneira flexível, permitindo futuras extensões do sistema sem grandes alterações no código existente.
+**Polimorfismo,** também previsto para versões futuras do sistema,permitindo que comportamentos semelhantes foram implementados de forma que possam ser reutilizados de maneira flexível, permitindo futuras extensões do sistema sem grandes alterações no código existente.
 
 Além disso, foram adotadas boas práticas como, separação de responsabilidades entre classes, métodos curtos e objetivos, nomenclatura clara e coerente. Essas práticas contribuem diretamente para a qualidade do MVP e facilitam a evolução do projeto nas próximas etapas.
 
