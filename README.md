@@ -75,6 +75,22 @@ O arquivo main.py demonstra a criação dos objetos e os relacionamentos entre a
 
 A solução desenvolvida pode ser aplicada no mundo real para apoiar agricultores familiares, facilitando o acesso a consultorias técnicas e capacitações oferecidas por universidades e redes de apoio. Além disso, pode auxiliar gestores públicos e instituições na organização de feiras agroecológicas, no acompanhamento da participação dos produtores e na disponibilização de materiais educativos, contribuindo para o fortalecimento da economia local e para a promoção da sustentabilidade social, econômica e ambiental.
 
+Sprint 2 – Projeto Físico de Banco de Dados (EP2)
+
+No Sprint 2, foi desenvolvido o Projeto Físico de Banco de Dados do MVP do Sistema de Gestão de Feiras Agroecológicas Locais, a partir do Diagrama Entidade-Relacionamento (DER) definido no Projeto Integrador I.
+
+Nesta etapa, as entidades do modelo conceitual foram transformadas em tabelas, com definição de tipos de dados, chaves primárias, chaves estrangeiras e restrições de integridade, garantindo coerência entre a modelagem e a implementação do sistema.
+
+As principais tabelas projetadas foram: usuario, produtor, rede_de_apoio, capacitacao, consultoria, participacao e arquivo, refletindo diretamente as classes implementadas no Sprint 1.
+
+📚 O que é Projeto Físico de Banco de Dados?
+
+(Componente Extensionista)
+
+O projeto físico de banco de dados é a fase em que o modelo conceitual é convertido em tabelas reais, prontas para serem criadas em um banco de dados.
+
+Para quem está aprendendo a programar, essa etapa é importante porque ajuda a entender como os dados são armazenados, garante a integridade das informações e facilita a integração entre o banco de dados e a aplicação.
+
 ## 👥 Equipe
 
 Projeto desenvolvido pelos discentes do curso de Análise e Desenvolvimento de Sistemas (ADS) da UFCA, como parte das atividades do Projeto Integrado II.
