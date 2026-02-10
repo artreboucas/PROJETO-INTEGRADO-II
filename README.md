@@ -75,7 +75,7 @@ O arquivo main.py demonstra a criação dos objetos e os relacionamentos entre a
 
 A solução desenvolvida pode ser aplicada no mundo real para apoiar agricultores familiares, facilitando o acesso a consultorias técnicas e capacitações oferecidas por universidades e redes de apoio. Além disso, pode auxiliar gestores públicos e instituições na organização de feiras agroecológicas, no acompanhamento da participação dos produtores e na disponibilização de materiais educativos, contribuindo para o fortalecimento da economia local e para a promoção da sustentabilidade social, econômica e ambiental.
 
-Sprint 2 – Projeto Físico de Banco de Dados (EP2)
+## Sprint 2 – Projeto Físico de Banco de Dados (EP2)
 
 No Sprint 2, foi desenvolvido o Projeto Físico de Banco de Dados do MVP do Sistema de Gestão de Feiras Agroecológicas Locais, a partir do Diagrama Entidade-Relacionamento (DER) definido no Projeto Integrador I.
 
