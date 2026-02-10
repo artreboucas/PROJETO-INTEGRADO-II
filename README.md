@@ -83,7 +83,7 @@ Nesta etapa, as entidades do modelo conceitual foram transformadas em tabelas, c
 
 As principais tabelas projetadas foram: usuario, produtor, rede_de_apoio, capacitacao, consultoria, participacao e arquivo, refletindo diretamente as classes implementadas no Sprint 1.
 
-📚 O que é Projeto Físico de Banco de Dados?
+##📚 O que é Projeto Físico de Banco de Dados?
 
 (Componente Extensionista)
 
