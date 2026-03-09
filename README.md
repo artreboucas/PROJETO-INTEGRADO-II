@@ -93,6 +93,13 @@ Para quem está aprendendo a programar, essa etapa é importante porque ajuda a 
 
 ## Sprint 3 – Prototipação do Wireframe e do Sitemap do MVP (EP3)
 
+No Sprint 3, foi desenvolvido a prototipação do wireframe e a estrutura do sitemap do MVP, com o objetivo de organizar as principais telas do sistema e definir o fluxo de navegação entre elas.
+
+O wireframe foi utilizado para representar de forma simplificada a estrutura das interfaces do sistema, permitindo visualizar a organização dos elementos das telas, como menus, botões, campos de formulário e áreas de conteúdo. Essa etapa é importante para planejar como o usuário irá interagir com o sistema antes da implementação.
+
+Além disso, foi definido o sitemap do MVP, que representa a estrutura de navegação entre as páginas da aplicação. Ele mostra como as telas estão conectadas e quais caminhos o usuário pode seguir dentro do sistema.
+
+## 
 (Componente Extensionista)
 
 
