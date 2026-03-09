@@ -99,9 +99,19 @@ O wireframe foi utilizado para representar de forma simplificada a estrutura das
 
 Além disso, foi definido o sitemap do MVP, que representa a estrutura de navegação entre as páginas da aplicação. Ele mostra como as telas estão conectadas e quais caminhos o usuário pode seguir dentro do sistema.
 
-## 
+## Prototipação de Wireframes
+
 (Componente Extensionista)
 
+A prototipação de wireframes é uma etapa importante no desenvolvimento de sistemas, pois permite visualizar de forma simples como as telas da aplicação serão organizadas antes da implementação. O wireframe funciona como um esboço da interface, mostrando a disposição de elementos como menus, botões, campos de formulário e áreas de conteúdo. Durante esse processo, o foco principal não está no design visual ou nas cores, mas sim na estrutura das telas e no fluxo de navegação do usuário dentro do sistema. Isso permite identificar se as funcionalidades estão organizadas de forma clara e se o usuário consegue realizar suas tarefas de maneira simples e intuitiva.
+
+Além disso, a criação de wireframes facilita a comunicação entre os membros da equipe, permitindo discutir ideias e realizar ajustes ainda na fase de planejamento, antes do desenvolvimento do sistema.
+
+## Design Centrado no Usuário e Impacto no Dia a Dia
+
+O design centrado no usuário busca desenvolver sistemas considerando as necessidades e a experiência das pessoas que irão utilizá-los. Isso envolve criar interfaces claras, organizadas e fáceis de usar.
+
+Quando esses princípios são aplicados, os sistemas se tornam mais intuitivos e acessíveis, facilitando o uso da tecnologia no dia a dia. Dessa forma, as pessoas conseguem realizar tarefas com mais rapidez, menos erros e maior eficiência ao utilizar aplicações digitais.
 
 ## 👥 Equipe
 
