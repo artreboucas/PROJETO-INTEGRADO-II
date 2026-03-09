@@ -91,6 +91,11 @@ O projeto físico de banco de dados é a fase em que o modelo conceitual é conv
 
 Para quem está aprendendo a programar, essa etapa é importante porque ajuda a entender como os dados são armazenados, garante a integridade das informações e facilita a integração entre o banco de dados e a aplicação.
 
+## Sprint 3 – Prototipação do Wireframe e do Sitemap do MVP (EP3)
+
+(Componente Extensionista)
+
+
 ## 👥 Equipe
 
 Projeto desenvolvido pelos discentes do curso de Análise e Desenvolvimento de Sistemas (ADS) da UFCA, como parte das atividades do Projeto Integrado II.
