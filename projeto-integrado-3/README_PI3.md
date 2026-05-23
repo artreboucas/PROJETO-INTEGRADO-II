@@ -27,7 +27,7 @@
 ![Capacitações](screenshots/Capacitadores.png)
 
 ### Detalhe da Capacitação
-![Detalhe da Capacitação](screenshots/Detalhe-Capacitaca.png)
+![Detalhe da Capacitação](screenshots/Detalhe-Capacitacao.png)
 
 ### Consultorias
 ![Consultorias](screenshots/Consultorias.png)
