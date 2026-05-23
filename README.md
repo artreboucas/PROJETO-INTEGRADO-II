@@ -89,21 +89,9 @@ Login (Rede de Apoio) → Dashboard Rede de Apoio → Criar Capacitação / Cria
 ### Protótipo Figma (EP1)
 Acesse o protótipo navegável diretamente pelo link abaixo:
 
-🔗 **[Link do Figma — inserir aqui]**
+🔗 **[Protótipo Figma — https://www.figma.com/design/Ikzoi5h2P2utdvvWbDfaKz/ProjetoIntegrador3?node-id=0-1&t=vYjMJ6uE4YkdTvjr-1]**
+🔗 **[Protótipo Navegavel — https://fish-rem-46688004.figma.site/]**
 
-O protótipo permite navegar entre as telas clicando nos botões e elementos interativos, simulando o fluxo real da aplicação.
-
-### Código-fonte (EP1 — Classes Python)
-```bash
-# Clone o repositório
-git clone https://github.com/[usuario]/[repositorio].git
-
-# Acesse a pasta do projeto
-cd [repositorio]
-
-# Execute o arquivo principal
-python main.py
-```
 
 ---
 
@@ -172,16 +160,6 @@ Projeto desenvolvido pelos discentes do curso de **Análise e Desenvolvimento de
 | Viviana Barros Gomes de Sousa | 2025014912 |
 | Samuelson da Silva Lima | 2025014860 |
 | Vitoria Cavalcante Souza | 2025019481 |
-
----
-
-## 📎 Links importantes
-
-| Recurso | Link |
-|---|---|
-| 🎨 Protótipo Figma | [Inserir link aqui] |
-| 📄 Relatório EP1 | [Inserir link do Google Drive aqui] |
-| 🎥 Vídeo explicativo | [Inserir link do Google Drive aqui] |
 
 ---
 
