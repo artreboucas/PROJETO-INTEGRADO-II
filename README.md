@@ -1,126 +1,190 @@
-# Sistema de Gestão de Feiras Agroecológicas Locais
+# 🌱 Sistema de Gestão de Feiras Agroecológicas Locais
+
+> Plataforma web para conectar agricultores familiares a capacitações, consultorias e redes de apoio técnico, promovendo a organização e o fortalecimento das feiras agroecológicas locais.
+
+---
 
 ## 📌 Contexto Acadêmico
-Este projeto foi desenvolvido no âmbito do **Projeto Integrado II (ADS0013)** do curso de **Análise e Desenvolvimento de Sistemas (ADS)**, vinculado ao **Centro de Educação a Distância (CEAD)** da **Universidade Federal do Cariri (UFCA)**.
 
-O presente repositório corresponde ao **Entregável Parcial 1 (EP1)**, cujo objetivo é a implementação das **classes principais do MVP**, aplicando os conceitos de **Programação Orientada a Objetos (POO)**, com base na documentação produzida no **Projeto Integrador I**.
+Este projeto foi desenvolvido no âmbito do **Projeto Integrado III (ADS0038)** do curso de **Análise e Desenvolvimento de Sistemas (ADS)**, vinculado ao **Centro de Educação a Distância (CEAD)** da **Universidade Federal do Cariri (UFCA)**.
 
----
-
-## 🎯 Objetivo do EP1
-O EP1 tem como objetivo transformar a modelagem conceitual previamente desenvolvida, especialmente o **Diagrama Entidade-Relacionamento (DER)**, em código orientado a objetos visando organização do código-fonte e alinhamento entre análise e implementação.
+O presente repositório corresponde ao **Entregável Parcial 1 (EP1)**, cujo objetivo é o desenvolvimento de um **protótipo de alta fidelidade do MVP web** utilizando o Figma, com foco em usabilidade, consistência visual e experiência do usuário (UX).
 
 ---
 
-## 🧩 Modelagem 
+## ❓ Qual é o problema que a solução resolve?
 
-As classes implementadas neste projeto foram diretamente derivadas das entidades definidas no **DER do Projeto Integrador I**, garantindo coerência entre a fase de análise e a implementação.
+Agricultores familiares que participam de feiras agroecológicas frequentemente enfrentam dificuldades para acessar capacitações técnicas, consultorias especializadas e materiais de apoio. A comunicação entre produtores, redes de apoio (universidades, instituições e empresas juniores) e gestores é fragmentada, realizada de forma manual ou por canais informais como grupos de WhatsApp e planilhas avulsas.
 
-### 🔹 Classes Implementadas
+Essa desorganização gera problemas como:
+- Dificuldade no controle de presença em capacitações;
+- Falta de visibilidade sobre as consultorias disponíveis;
+- Ausência de um canal centralizado para troca de informações e materiais;
+- Baixa rastreabilidade da participação dos produtores nas atividades da feira.
 
-- **Usuario**  
-  Representa os usuários responsáveis pela gestão do sistema.
-
-- **Produtor**  
-  Representa agricultores familiares participantes das feiras agroecológicas.
-
-- **RedeDeApoio**  
-  Representa universidades, instituições de apoio ou empresas juniores que oferecem suporte técnico.
-
-- **Consultoria**  
-  Representa consultorias técnicas oferecidas aos produtores pelas redes de apoio.
-
-- **Capacitacao**  
-  Representa cursos, treinamentos e capacitações voltados à agricultura sustentável.
-
-- **Arquivo**  
-  Representa materiais de apoio vinculados a capacitações ou consultorias.
-
-- **Participacao**  
-  Representa a participação do produtor em capacitações, controlando presença e status, conforme definido no DER.
-
-Os relacionamentos entre as entidades foram implementados por meio de **associações entre objetos**, substituindo chaves estrangeiras por referências diretas entre as instâncias.
+O sistema resolve essa lacuna ao centralizar a gestão dessas informações em uma plataforma web acessível, intuitiva e voltada para a realidade do agricultor familiar.
 
 ---
 
-## 🧠 Princípios e Práticas
+## 🎯 Qual é o objetivo do sistema?
 
-O desenvolvimento do projeto seguiu os principais fundamentos da Programação Orientada a Objetos:
+O objetivo central do sistema é **digitalizar e organizar a gestão das feiras agroecológicas locais**, conectando três atores principais:
 
-**Abstração,** ao representar conceitos do mundo real, como produtores, capacitações e redes de apoio, por meio de classes;
+1. **Produtores**: agricultores familiares que participam das feiras e buscam capacitação e suporte técnico;
+2. **Redes de Apoio**: universidades, instituições e empresas juniores que oferecem consultorias e capacitações;
+3. **Gestores/Administradores**: responsáveis pela organização geral das feiras e do sistema.
 
-**Encapsulamento,** ao agrupar atributos e comportamentos relacionados dentro de cada classe;
-
-**Herança,** considerada na modelagem do sistema como possibilidade de especialização de usuários e papéis no sistema, estando prevista para ser aplicada nas próximas etapas de evolução do MVP;
-
-**Baixo acoplamento,** permitindo que as classes se relacionem sem dependências excessivas;
-
-**Polimorfismo,** também previsto para versões futuras do sistema,permitindo que comportamentos semelhantes foram implementados de forma que possam ser reutilizados de maneira flexível, permitindo futuras extensões do sistema sem grandes alterações no código existente.
-
-Além disso, foram adotadas boas práticas como, separação de responsabilidades entre classes, métodos curtos e objetivos, nomenclatura clara e coerente. Essas práticas contribuem diretamente para a qualidade do MVP e facilitam a evolução do projeto nas próximas etapas.
+O sistema permite o cadastro e acompanhamento de capacitações, consultorias, participações, agendamentos e materiais de apoio, promovendo mais transparência, organização e eficiência para todos os envolvidos.
 
 ---
 
-## ▶️ Execução do Projeto
+## ⚙️ Como o sistema funciona (visão geral)?
 
-Para executar o projeto e visualizar o funcionamento das classes:
+O sistema é dividido em dois perfis principais de acesso:
+
+### 👨‍🌾 Perfil Produtor
+- Realiza login ou cadastro na plataforma;
+- Acessa o **Dashboard** com um resumo das suas atividades;
+- Visualiza e se inscreve em **Capacitações** disponíveis;
+- Solicita ou acompanha **Consultorias** técnicas;
+- Acessa **Meus Treinamentos** para acompanhar seu histórico;
+- Gerencia sua **Agenda** de atividades;
+- Edita seu **Perfil** pessoal.
+
+### 🏛️ Perfil Rede de Apoio
+- Realiza login na plataforma com perfil diferenciado;
+- Acessa o **Dashboard da Rede de Apoio** com visão geral das atividades;
+- **Cria e gerencia Capacitações** para os produtores;
+- **Cria e gerencia Consultorias** disponíveis.
+
+### Fluxo de navegação principal:
+```
+Login → Dashboard → Capacitações / Consultorias / Meus Treinamentos / Agenda / Perfil
+Login (Rede de Apoio) → Dashboard Rede de Apoio → Criar Capacitação / Criar Consultoria
+```
+
+---
+
+## 🛠️ Quais tecnologias foram utilizadas?
+
+| Tecnologia | Finalidade |
+|---|---|
+| **Figma** | Prototipação de alta fidelidade (wireframe → protótipo navegável) |
+| **Python** | Implementação das classes do MVP (Sprint 1) |
+| **PostgreSQL** | Banco de dados relacional (Sprint 2) |
+| **GitHub** | Versionamento de código e documentação do projeto |
+| **Google Drive** | Armazenamento de relatórios e documentos acadêmicos |
+| **Poppins (Google Fonts)** | Tipografia principal do sistema |
+
+**Paleta de cores adotada:**
+- 🟢 Verde escuro: `#2E7D32` — cor primária, transmite confiança e conexão com a natureza
+- 🟩 Verde claro: `#66BB6A` — cor de destaque e ações secundárias
+- ⬜ Branco: `#FFFFFF` — fundo e leiturabilidade
+- 🔲 Cinza claro: `#F5F5F5` — fundos de cards e seções
+
+---
+
+## ▶️ Como executar ou utilizar a aplicação?
+
+### Protótipo Figma (EP1)
+Acesse o protótipo navegável diretamente pelo link abaixo:
+
+🔗 **[Link do Figma — inserir aqui]**
+
+O protótipo permite navegar entre as telas clicando nos botões e elementos interativos, simulando o fluxo real da aplicação.
+
+### Código-fonte (EP1 — Classes Python)
 ```bash
+# Clone o repositório
+git clone https://github.com/[usuario]/[repositorio].git
+
+# Acesse a pasta do projeto
+cd [repositorio]
+
+# Execute o arquivo principal
 python main.py
 ```
-O arquivo main.py demonstra a criação dos objetos e os relacionamentos entre as classes implementadas.
 
-## 🌱 Possíveis usos da nossa solução
+---
 
-(Componente Extensionista)
+## 🧭 Quais decisões foram tomadas ao longo do desenvolvimento?
 
-A solução desenvolvida pode ser aplicada no mundo real para apoiar agricultores familiares, facilitando o acesso a consultorias técnicas e capacitações oferecidas por universidades e redes de apoio. Além disso, pode auxiliar gestores públicos e instituições na organização de feiras agroecológicas, no acompanhamento da participação dos produtores e na disponibilização de materiais educativos, contribuindo para o fortalecimento da economia local e para a promoção da sustentabilidade social, econômica e ambiental.
+### Identidade Visual
+A paleta de cores em tons de verde foi escolhida intencionalmente para reforçar a conexão do sistema com a agricultura, agroecologia e sustentabilidade. O verde transmite natureza, crescimento e confiança — valores centrais do projeto.
 
-## Sprint 2 – Projeto Físico de Banco de Dados (EP2)
+### Tipografia
+A fonte **Poppins** foi selecionada por sua excelente legibilidade em telas de diferentes tamanhos, seu aspecto moderno e amigável, e por funcionar bem tanto em títulos quanto em textos de corpo.
 
-No Sprint 2, foi desenvolvido o Projeto Físico de Banco de Dados do MVP do Sistema de Gestão de Feiras Agroecológicas Locais, a partir do Diagrama Entidade-Relacionamento (DER) definido no Projeto Integrador I.
+### Separação de perfis
+A decisão de separar os dashboards entre Produtor e Rede de Apoio foi tomada para evitar sobrecarga de informação. Cada perfil acessa apenas o que é relevante para seu papel, reduzindo a curva de aprendizado e aumentando a eficiência de uso.
 
-Nesta etapa, as entidades do modelo conceitual foram transformadas em tabelas, com definição de tipos de dados, chaves primárias, chaves estrangeiras e restrições de integridade, garantindo coerência entre a modelagem e a implementação do sistema.
+### Componentização no Figma
+Todos os elementos visuais recorrentes (botões, cards, navbar, inputs) foram criados como **componentes reutilizáveis** no Figma, garantindo consistência visual entre as telas e facilitando futuras alterações no design.
 
-As principais tabelas projetadas foram: usuario, produtor, rede_de_apoio, capacitacao, consultoria, participacao e arquivo, refletindo diretamente as classes implementadas no Sprint 1.
+### Navegação por abas fixas
+O menu de navegação foi mantido fixo na parte inferior (mobile) e lateral (desktop), seguindo padrões consolidados de usabilidade, reduzindo o número de cliques necessários para acessar as principais funcionalidades.
 
-## 📚 O que é Projeto Físico de Banco de Dados?
+### Acessibilidade
+O contraste entre texto e fundo foi verificado seguindo as diretrizes da **WCAG 2.1** (nível AA), garantindo que o sistema seja acessível a pessoas com baixa visão ou daltonismo.
 
-(Componente Extensionista)
+---
 
-O projeto físico de banco de dados é a fase em que o modelo conceitual é convertido em tabelas reais, prontas para serem criadas em um banco de dados.
+## 🎨 Importância da Experiência do Usuário (UX)
 
-Para quem está aprendendo a programar, essa etapa é importante porque ajuda a entender como os dados são armazenados, garante a integridade das informações e facilita a integração entre o banco de dados e a aplicação.
+A Experiência do Usuário (UX) vai muito além da estética de um sistema. Ela representa a forma como uma pessoa se sente ao interagir com uma aplicação — se ela consegue realizar o que precisa com facilidade, sem se sentir perdida, frustrada ou sobrecarregada de informações.
 
-## Sprint 3 – Prototipação do Wireframe e do Sitemap do MVP (EP3)
+No contexto do nosso projeto, essa dimensão é especialmente importante porque o público principal inclui **agricultores familiares**, que em muitos casos têm pouca familiaridade com tecnologia digital. Um sistema com boa UX pode ser a diferença entre uma ferramenta que é adotada e usada com frequência e uma que é abandonada logo nos primeiros dias.
 
-No Sprint 3, foi desenvolvido a prototipação do wireframe e a estrutura do sitemap do MVP, com o objetivo de organizar as principais telas do sistema e definir o fluxo de navegação entre elas.
+Quando um sistema é bem projetado do ponto de vista de UX, ele reduz o número de erros que o usuário comete, diminui o tempo necessário para aprender a usar a plataforma e aumenta a confiança das pessoas na tecnologia. Isso é especialmente relevante em contextos rurais, onde o acesso à assistência técnica e a conexão de internet já são limitados por si só.
 
-O wireframe foi utilizado para representar de forma simplificada a estrutura das interfaces do sistema, permitindo visualizar a organização dos elementos das telas, como menus, botões, campos de formulário e áreas de conteúdo. Essa etapa é importante para planejar como o usuário irá interagir com o sistema antes da implementação.
+Um bom design de interface impacta positivamente a vida das pessoas porque coloca as necessidades delas no centro das decisões. Em vez de obrigar o usuário a se adaptar à lógica do sistema, um bom design adapta o sistema à lógica e à realidade do usuário. Isso se traduz em menus claros, linguagem simples, botões visíveis, feedback imediato para as ações realizadas e um fluxo de navegação que faz sentido para quem está usando.
 
-Além disso, foi definido o sitemap do MVP, que representa a estrutura de navegação entre as páginas da aplicação. Ele mostra como as telas estão conectadas e quais caminhos o usuário pode seguir dentro do sistema.
+No caso do nosso sistema de feiras agroecológicas, a aplicação de princípios de UX significa que um produtor consegue, com poucos cliques, visualizar as capacitações disponíveis, confirmar sua inscrição e acessar os materiais — sem precisar de treinamento especializado. Isso tem impacto direto na autonomia, na produtividade e na inclusão digital dessas pessoas.
 
-## Prototipação de Wireframes
+Em resumo, investir em UX não é um detalhe de acabamento — é uma decisão estratégica que determina se uma solução tecnológica será realmente útil ou se ficará subutilizada. Um sistema que as pessoas conseguem usar com naturalidade é um sistema que gera valor real.
 
-(Componente Extensionista)
+---
 
-A prototipação de wireframes é uma etapa importante no desenvolvimento de sistemas, pois permite visualizar de forma simples como as telas da aplicação serão organizadas antes da implementação. O wireframe funciona como um esboço da interface, mostrando a disposição de elementos como menus, botões, campos de formulário e áreas de conteúdo. Durante esse processo, o foco principal não está no design visual ou nas cores, mas sim na estrutura das telas e no fluxo de navegação do usuário dentro do sistema. Isso permite identificar se as funcionalidades estão organizadas de forma clara e se o usuário consegue realizar suas tarefas de maneira simples e intuitiva.
+## 🌍 Possíveis usos da nossa solução
 
-Além disso, a criação de wireframes facilita a comunicação entre os membros da equipe, permitindo discutir ideias e realizar ajustes ainda na fase de planejamento, antes do desenvolvimento do sistema.
+A plataforma desenvolvida pode ser aplicada em diferentes contextos do mundo real:
 
-## Design Centrado no Usuário e Impacto no Dia a Dia
+- **Prefeituras e secretarias de agricultura** podem utilizá-la para organizar e monitorar feiras agroecológicas municipais, acompanhando a participação dos produtores e o impacto das capacitações;
+- **Universidades e institutos federais** podem usar o sistema para registrar e gerenciar projetos de extensão voltados à assistência técnica rural, conectando estudantes e professores a comunidades agrícolas;
+- **Cooperativas e associações de produtores** podem adotar a plataforma para centralizar a comunicação entre seus membros, organizar agendas de treinamentos e facilitar o acesso a consultorias especializadas;
+- **ONGs e organizações da sociedade civil** que atuam no fortalecimento da agricultura familiar podem usar o sistema para sistematizar suas ações e ampliar o alcance de seus programas;
+- **Produtores individuais** ganham autonomia para acessar oportunidades de capacitação e suporte técnico sem depender de intermediários ou de comunicação informal.
 
-O design centrado no usuário busca desenvolver sistemas considerando as necessidades e a experiência das pessoas que irão utilizá-los. Isso envolve criar interfaces claras, organizadas e fáceis de usar.
+Em todos esses cenários, a solução contribui para a **inclusão digital no campo**, para a **valorização da agricultura familiar** e para a **promoção da sustentabilidade** social, econômica e ambiental nas comunidades atendidas.
 
-Quando esses princípios são aplicados, os sistemas se tornam mais intuitivos e acessíveis, facilitando o uso da tecnologia no dia a dia. Dessa forma, as pessoas conseguem realizar tarefas com mais rapidez, menos erros e maior eficiência ao utilizar aplicações digitais.
+---
 
 ## 👥 Equipe
 
-Projeto desenvolvido pelos discentes do curso de Análise e Desenvolvimento de Sistemas (ADS) da UFCA, como parte das atividades do Projeto Integrado II.
+Projeto desenvolvido pelos discentes do curso de **Análise e Desenvolvimento de Sistemas (ADS)** da **UFCA**, como parte das atividades do Projeto Integrado III.
 
-- Arthur Rebouças do Carmo  
-- Sheila Matias Barroso  
-- Rubens Lopes dos Santos 
-- Carlos Rodrigo Ferreira da Silva 
-- Viviana Barros Gomes de Sousa 
-- Samuelson da Silva Lima 
-- Vitoria Cavalcante Souza
+| Nome | Matrícula |
+|---|---|
+| Arthur Rebouças do Carmo | 2025019454 |
+| Sheila Matias Barroso | 2025014897 |
+| Rubens Lopes dos Santos | 2025014805 |
+| Carlos Rodrigo Ferreira da Silva | 2025014304 |
+| Viviana Barros Gomes de Sousa | 2025014912 |
+| Samuelson da Silva Lima | 2025014860 |
+| Vitoria Cavalcante Souza | 2025019481 |
+
+---
+
+## 📎 Links importantes
+
+| Recurso | Link |
+|---|---|
+| 🎨 Protótipo Figma | [Inserir link aqui] |
+| 📄 Relatório EP1 | [Inserir link do Google Drive aqui] |
+| 🎥 Vídeo explicativo | [Inserir link do Google Drive aqui] |
+
+---
+
+*Universidade Federal do Cariri (UFCA) — Centro de Educação a Distância (CEAD)*
+*Curso de Análise e Desenvolvimento de Sistemas — Projeto Integrado III (ADS0038)*
+*Prof. Luís Fabrício de Freitas Souza*
