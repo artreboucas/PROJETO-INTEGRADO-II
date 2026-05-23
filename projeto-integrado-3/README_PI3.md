@@ -8,7 +8,7 @@
 
 ## 🎨 Protótipo Navegável (Figma)
 
-🔗 **[Acessar protótipo no Figma](COLE_O_LINK_AQUI)**
+🔗 **[Acessar protótipo no Figma](https://www.figma.com/design/Ikzoi5h2P2utdvvWbDfaKz/ProjetoIntegrador3?node-id=0-1&t=vYjMJ6uE4YkdTvjr-1)**
 
 ---
 
@@ -33,7 +33,7 @@
 ![Consultorias](screenshots/Consultorias.png)
 
 ### Meus Treinamentos
-![Meus Treinamentos](screenshots/Meus-Treinamentos..png)
+![Meus Treinamentos](screenshots/Meus-Treinamentos.png)
 
 ### Agenda
 ![Agenda](screenshots/Agenda.png)
@@ -102,23 +102,6 @@ Login (Rede de Apoio)
 
 ---
 
-## ▶️ Como rodar o protótipo localmente
-
-```bash
-# Acesse a pasta do código
-cd ep1-prototipo
-
-# Instale as dependências
-npm install
-
-# Rode o servidor de desenvolvimento
-npm run dev
-```
-
-Acesse: **http://localhost:5173**
-
----
-
 ## 🎨 Importância da Experiência do Usuário (UX)
 
 A Experiência do Usuário vai além da estética — ela representa como uma pessoa se sente ao interagir com um sistema. No nosso projeto, isso é especialmente importante porque o público principal inclui agricultores familiares, que em muitos casos têm pouca familiaridade com tecnologia digital.
@@ -172,16 +155,6 @@ Princípios aplicados no protótipo:
 | Viviana Barros Gomes de Sousa | 2025014912 |
 | Samuelson da Silva Lima | 2025014860 |
 | Vitoria Cavalcante Souza | 2025019481 |
-
----
-
-## 📎 Links
-
-| Recurso | Link |
-|---|---|
-| 🎨 Protótipo Figma | [Inserir link] |
-| 📄 Relatório EP1 | [Inserir link Google Drive] |
-| 🎥 Vídeo explicativo | [Inserir link Google Drive] |
 
 ---
 
